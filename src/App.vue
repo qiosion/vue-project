@@ -1,12 +1,16 @@
 <script setup>
   import ReactiveObj from './components/ReactiveObj.vue';
   import RefObj from './components/RefObj.vue';
+  import ComputedProp from './components/ComputedProp.vue';
+  import CachedPropFunc from './components/CachedPropFunc.vue';
 </script>
 
 <template>
   <!-- <v-btn icon="$vuetify"></v-btn> -->
   <!-- <ReactiveObj/> -->
-  <RefObj/>
+  <!-- <RefObj/> -->
+  <!-- <ComputedProp/> -->
+  <CachedPropFunc/>
 </template>
 
 <style scoped>
