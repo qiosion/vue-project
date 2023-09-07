@@ -7,6 +7,8 @@
   import VueList from './components/VueList.vue';
   import ClassBind from './components/ClassBind.vue';
   import ArrayClassBind from './components/ArrayClassBind.vue';
+  import MyComponent from './components/MyComponent.vue';
+  import MyMultiComponent from './components/MyMultiComponent.vue';
 </script>
 
 <template>
@@ -18,7 +20,9 @@
   <!-- <WritableComputed/> -->
   <!-- <VueList/> -->
   <!-- <ClassBind/> -->
-  <ArrayClassBind/>
+  <!-- <ArrayClassBind/> -->
+  <MyComponent class="baz boo" />
+  <MyMultiComponent class="baz"/>
 </template>
 
 <style scoped>
