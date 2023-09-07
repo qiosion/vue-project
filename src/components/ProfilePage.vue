@@ -12,7 +12,7 @@
       </v-col>
     </v-row>
     <v-row justify-start class="mt-7">
-      <v-card
+      <v-card v-for="(card, index) in cards" :key="index"
         elevation="12" 
         width="468"  
         gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)" 
@@ -20,8 +20,8 @@
         <v-img
           height="468"
           cover
-          src="https://images.unsplash.com/photo-1525138079-9424be9df411?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80">
-          <v-card-title class="text-white">#title</v-card-title>
+          :src="card.src">
+          <v-card-title class="text-white">{{ card.title }}</v-card-title>
         </v-img>
         <v-card-actions>
           <v-spacer></v-spacer>
@@ -30,9 +30,9 @@
           <v-btn size="small" color="surface-variant" variant="text" icon="mdi-share-variant"></v-btn>
         </v-card-actions>
         <v-divider></v-divider>
-        <v-card-title class="text-blue">#title</v-card-title>
+        <v-card-title class="text-blue">{{ card.title }}</v-card-title>
         <v-card-text>
-            #content
+          {{ card.content }}
         </v-card-text>
       </v-card>
     </v-row>
