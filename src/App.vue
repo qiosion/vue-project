@@ -5,6 +5,8 @@
   import CachedPropFunc from './components/CachedPropFunc.vue';
   import WritableComputed from './components/WritableComputed.vue';
   import VueList from './components/VueList.vue';
+  import ClassBind from './components/ClassBind.vue';
+  import ArrayClassBind from './components/ArrayClassBind.vue';
 </script>
 
 <template>
@@ -14,7 +16,9 @@
   <!-- <ComputedProp/> -->
   <!-- <CachedPropFunc/> -->
   <!-- <WritableComputed/> -->
-  <VueList/>
+  <!-- <VueList/> -->
+  <!-- <ClassBind/> -->
+  <ArrayClassBind/>
 </template>
 
 <style scoped>
