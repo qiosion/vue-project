@@ -3,6 +3,7 @@
   import RefObj from './components/RefObj.vue';
   import ComputedProp from './components/ComputedProp.vue';
   import CachedPropFunc from './components/CachedPropFunc.vue';
+  import WritableComputed from './components/WritableComputed.vue';
 </script>
 
 <template>
@@ -10,7 +11,8 @@
   <!-- <ReactiveObj/> -->
   <!-- <RefObj/> -->
   <!-- <ComputedProp/> -->
-  <CachedPropFunc/>
+  <!-- <CachedPropFunc/> -->
+  <WritableComputed/>
 </template>
 
 <style scoped>
