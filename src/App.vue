@@ -4,6 +4,7 @@
   import ComputedProp from './components/ComputedProp.vue';
   import CachedPropFunc from './components/CachedPropFunc.vue';
   import WritableComputed from './components/WritableComputed.vue';
+  import VueList from './components/VueList.vue';
 </script>
 
 <template>
@@ -12,7 +13,8 @@
   <!-- <RefObj/> -->
   <!-- <ComputedProp/> -->
   <!-- <CachedPropFunc/> -->
-  <WritableComputed/>
+  <!-- <WritableComputed/> -->
+  <VueList/>
 </template>
 
 <style scoped>
