@@ -11,6 +11,7 @@
   import MyMultiComponent from './components/MyMultiComponent.vue';
   import StyleBind from './components/StyleBind.vue';
   import TextFormBind from './components/TextFormBind.vue';
+  import CheckboxFormBind from './components/CheckboxFormBind.vue';
 </script>
 
 <template>
@@ -26,7 +27,8 @@
   <!-- <MyComponent class="baz boo" />
   <MyMultiComponent class="baz"/> -->
   <!-- <StyleBind/> -->
-  <TextFormBind/>
+  <!-- <TextFormBind/> -->
+  <CheckboxFormBind/>
 </template>
 
 <style scoped>
