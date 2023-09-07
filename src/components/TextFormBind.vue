@@ -21,3 +21,16 @@
     </v-card>
 </template>
 
+<style>
+    .height-200 {
+        height: 200px;
+    }
+    
+    .outlined {
+        border-style: solid;
+    }
+
+    .wrap {
+        white-space: pre-line;
+    }
+</style>
