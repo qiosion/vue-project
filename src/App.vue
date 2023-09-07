@@ -9,6 +9,8 @@
   import ArrayClassBind from './components/ArrayClassBind.vue';
   import MyComponent from './components/MyComponent.vue';
   import MyMultiComponent from './components/MyMultiComponent.vue';
+  import StyleBind from './components/StyleBind.vue';
+  import TextFormBind from './components/TextFormBind.vue';
 </script>
 
 <template>
@@ -21,8 +23,10 @@
   <!-- <VueList/> -->
   <!-- <ClassBind/> -->
   <!-- <ArrayClassBind/> -->
-  <MyComponent class="baz boo" />
-  <MyMultiComponent class="baz"/>
+  <!-- <MyComponent class="baz boo" />
+  <MyMultiComponent class="baz"/> -->
+  <!-- <StyleBind/> -->
+  <TextFormBind/>
 </template>
 
 <style scoped>
