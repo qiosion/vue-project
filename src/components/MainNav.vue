@@ -46,16 +46,16 @@
     </v-row>
 
     <v-list dense nav active-class="text-red font-weight-bold" class="mt-10">
-        <v-list-item :value="title" :prepend-icon="icon">
+        <!-- <v-list-item :value="title" :prepend-icon="icon">
           <v-list-title>{{ title }}</v-list-title>
-        </v-list-item>
+        </v-list-item> -->
         
-        <!--<v-list-item  
+        <v-list-item  
           v-for="[icon, title] in menu"
           :value="title"
           :prepend-icon="icon">
           <v-list-title>{{ title }}</v-list-title>
-        </v-list-item>-->
+        </v-list-item>
     </v-list>
   </v-navigation-drawer>
 </template>
@@ -63,8 +63,8 @@
 <script setup>
   import { reactive, ref } from 'vue'
 
-  const title = ref('Feed')
-  const icon = ref('mdi-home-outline')
+  // const title = ref('Feed')
+  // const icon = ref('mdi-home-outline')
 
   const menu = reactive([
     ['mdi-home-outline', 'Feed'],
