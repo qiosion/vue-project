@@ -24,7 +24,7 @@
 
     // 토글 클릭하지 않아도 자동으로 깜빡이게 인터벌 셋팅
     setInterval(toggleActive, 500)
-    setInterval(toggleActive, 500)
+    setInterval(toggleError, 500)
     
 </script>
 
