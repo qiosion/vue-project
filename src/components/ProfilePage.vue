@@ -25,8 +25,8 @@
         </v-img>
         <v-card-actions>
           <v-spacer></v-spacer>
-          <v-btn size="small" color="surface-variant" variant="text" icon="mdi-heart"></v-btn>
-          <v-btn size="small" color="surface-variant" variant="text" icon="mdi-bookmark"></v-btn>
+          <v-btn size="small" color="surface-variant" variant="text" icon="mdi-mdi mdi-heart-circle"></v-btn>
+          <v-btn size="small" color="surface-variant" variant="text" icon="mdi mdi-check-circle-outline"></v-btn>
           <v-btn size="small" color="surface-variant" variant="text" icon="mdi-share-variant"></v-btn>
         </v-card-actions>
         <v-divider></v-divider>
