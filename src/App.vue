@@ -4,6 +4,7 @@
   import BlogPageVFor from './components/BlogPageVFor.vue';
   import BlogPageEmit from './components/BlogPageEmit.vue';
   import ComponentSlot from './components/ComponentSlot.vue';
+  import ComponentVModel from './components/ComponentVModel.vue';
 </script>
 
 <template>
@@ -11,7 +12,8 @@
   <!-- <BlogPage/> -->
   <!-- <BlogPageVFor/> -->
   <!-- <BlogPageEmit/> -->
-  <ComponentSlot/>
+  <!-- <ComponentSlot/> -->
+  <ComponentVModel/>
 </template>
 
 <style scoped>
